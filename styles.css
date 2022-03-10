@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(12, 161, 206);
+    height: 150px;
+
+}
+.header h1{
+    color: aliceblue;
+    font-size: 60px;
+    padding-top:45px;
+    padding-left: 30px;
+}
+.midder{
+    background-color: black;
+    height: 40px;
+}
+.midder li{
+    list-style: none;
+    color: aliceblue;
+    float:left;
+    padding: 7px 17px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.bottom{
+    display: table;
+    width: 800px;
+    height: 200px;
+    border: 1px solid;
+    margin: 20px;
+    padding: 10px;
+    background-color:aliceblue;   
+}
+.bottom td{
+    padding: 10px;
+}
+.last{
+    padding-left: 25px;
+}
+.last p{
+    padding: 20px;
+}
+.midder img{
+    float: right;
+    padding: 8px;
+    padding-right: 20px;
+}
