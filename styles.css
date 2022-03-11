@@ -7,7 +7,7 @@
     height: 150px;
 
 }
-.header h1{
+.header_h1{
     color: aliceblue;
     font-size: 60px;
     padding-top:45px;
@@ -17,7 +17,7 @@
     background-color: black;
     height: 40px;
 }
-.midder li{
+.midder_li{
     list-style: none;
     color: aliceblue;
     float:left;
@@ -34,16 +34,16 @@
     padding: 10px;
     background-color:aliceblue;   
 }
-.bottom td{
+.bottom_td{
     padding: 10px;
 }
 .last{
     padding-left: 25px;
 }
-.last p{
+.last_p{
     padding: 20px;
 }
-.midder img{
+.midder_img{
     float: right;
     padding: 8px;
     padding-right: 20px;
