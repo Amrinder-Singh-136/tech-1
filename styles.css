@@ -7,7 +7,8 @@
     height: 150px;
 
 }
-.header_h1{
+.header h1{
+    font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
     font-size: 60px;
     padding-top:45px;
@@ -17,7 +18,8 @@
     background-color: black;
     height: 40px;
 }
-.midder_li{
+.midder li{
+    font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     color: aliceblue;
     float:left;
@@ -34,16 +36,18 @@
     padding: 10px;
     background-color:aliceblue;   
 }
-.bottom_td{
+.bottom td{
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
 }
 .last{
     padding-left: 25px;
 }
-.last_p{
+.last p{
+    font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
 }
-.midder_img{
+.midder img{
     float: right;
     padding: 8px;
     padding-right: 20px;
