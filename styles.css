@@ -17,7 +17,7 @@
     padding-left: 30px;
 }
 .midder{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.788);
     height: 40px;
 }
 .midder li{
@@ -26,33 +26,46 @@
     list-style: none;
     color: aliceblue;
     float:left;
-    padding: 7px 17px;
-    padding-left: 40px;
+    padding: 10px 0px;
+    padding-left: 30px;
     font-size: 20px;
 }
 .bottom{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Calibri";
     display: table;
+    margin-top: 30px;
+    margin-left: 60px;
+    padding-top: 8px;
+    padding-left: 12px;
     width: 800px;
-    height: 200px;
+    height: 175px;
     border: 1px solid;
-    margin: 20px;
-    padding: 10px;
     background-color:aliceblue;   
 }
 .bottom td{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+    padding: 6px;
+    font-family: "Bahnschrift";
+
+}
+.bottom h2{
+    font-family: "Bahnschrift SemiBold";
+    font-weight: bold;
 }
 .last{
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 35px;
+    font-family: "Bahnschrift SemiBold";
     padding-left: 25px;
 
 }
 .last p{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    font-family: "Bahnschrift";
+    padding: 10px;
     padding-inline-start: 0%;
+}
+.last h2{
+    margin-top: 30px;
+    font-family: "Bahnschrift SemiBold";
 }
 .midder img{
     float: right;
