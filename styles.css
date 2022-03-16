@@ -4,33 +4,33 @@
 }
 .header{
     font-family: "Century Gothic";
-    background-color: rgb(12, 161, 206);
+    background-color: #12a8d6;
     height: 150px;
 
 }
 .header h1{
     font-family: "Century Gothic";
     font-weight: lighter;
-    color: aliceblue;
+    color: white;
     font-size: 60px;
     padding-top:45px;
     padding-left: 30px;
 }
-.midder{
+.navbar{
     background-color: rgba(0, 0, 0, 0.788);
     height: 40px;
 }
-.midder li{
-    font-family: Arial, Helvetica, sans-serif;
+.navbar li{
+    font-family: "Calibri";
     font-weight: bold;
     list-style: none;
-    color: aliceblue;
+    color: white;
     float:left;
     padding: 10px 0px;
     padding-left: 30px;
-    font-size: 20px;
+    font-size: 19px;
 }
-.bottom{
+.News_Container{
     font-family: "Calibri";
     display: table;
     margin-top: 30px;
@@ -40,34 +40,39 @@
     width: 800px;
     height: 175px;
     border: 1px solid;
-    background-color:aliceblue;   
+    border-color: rgba(0, 0, 0, 0.226);
+    background-color:white;   
 }
-.bottom td{
-    padding: 6px;
+.News_Container li{
+    list-style: none;
+    padding: 8px;
+    padding-left: 7px;
     font-family: "Bahnschrift";
-
 }
-.bottom h2{
+.News_Container li::before{
+    content: " - ";
+}
+.News_Container h2{
     font-family: "Bahnschrift SemiBold";
     font-weight: bold;
 }
-.last{
+.Welcome{
     margin-top: 20px;
     margin-left: 35px;
     font-family: "Bahnschrift SemiBold";
     padding-left: 25px;
 
 }
-.last p{
+.Welcome p{
     font-family: "Bahnschrift";
     padding: 10px;
     padding-inline-start: 0%;
 }
-.last h2{
-    margin-top: 30px;
+.Welcome h3{
+    margin-top: 40px;
     font-family: "Bahnschrift SemiBold";
 }
-.midder img{
+.navbar img{
     float: right;
     padding: 8px;
     padding-right: 20px;
